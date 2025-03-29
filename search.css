@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+   margin: 5px 40px;
+}
+
+section{
+    display: flex;
+    margin: 30px 30px;
+    margin-right: 100px;
+    gap: 30px;
+}
+
+H1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.para{
+    font-size: 1.5rem;
+    margin-block: 30px;
+}
+.btn{
+    background-color: pink;
+        border: 0;
+        padding: 30px 70px;
+        border-radius: 50px;
+        cursor:pointer;
+        color: white; 
+}
+
+p{
+    font-size: 12px;
+}
+
+nav{
+    background:pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    font-size: small;
+}
+
+.spa{
+    text-align: justify ;
+    gap: 30px;
+    display: flex;
+}
